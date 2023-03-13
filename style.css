@@ -2,6 +2,33 @@ table, th, td {
     border:1px solid black;
 }
 
-.formulario{
-    colspan: "100%"
+#tabela{
+    width: 40%;
+}
+
+#head-form{
+    background-color: silver;
+}
+
+#inputTb{
+    border: none;
+}
+
+#nomeid, #cepid, #enderid, #telid, #cpfid, #mailid{
+    border: none;
+}
+
+.tdTitulo{
+    width: 30%;
+    text-align: center;
+}
+
+.tdCampo{
+    width: 150px;
+}
+
+#botaoTb{
+    margin-top: 10px;
+    margin-left: 5px;
+    box-shadow: 3px 2px 3px black;
 }
