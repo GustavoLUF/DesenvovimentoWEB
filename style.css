@@ -32,3 +32,13 @@ table, th, td {
     margin-left: 5px;
     box-shadow: 3px 2px 3px black;
 }
+
+#enviarBt{
+    width: 100%;
+    border-style: none;
+}
+
+#enviarBt:hover{
+    background-color: rgb(209, 209, 209);
+    font-weight: bold;
+}

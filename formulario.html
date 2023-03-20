@@ -58,8 +58,28 @@
                 <input type='email' name="mail" id="mailid" placeholder="seuemail@mail.com">
             </td>
         </tr>
+
+        <tr>
+            <td>Profissão:</td>
+            <td>
+                <select name="select">
+                <option>Selecione uma Profissão!</option>
+                    <option>Advogado</option>
+                    <option>Analista</option>
+                    <option>Brigadista</option>
+                    <option>Desenvolvedor</option>
+                    <option>Gerente de Projeto</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="100%">
+                <input type="submit" id="enviarBt" name='enviar' onclick="validaCampos('nome')">
+            </td>
+        </tr>
     </table>
-    <input type="submit" id="botaoTb" onclick="validaCampos('nome')">
+    
     </div>
     <script>
         function validaCampos(param){
